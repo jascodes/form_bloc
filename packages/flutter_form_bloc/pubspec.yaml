@@ -14,7 +14,6 @@ dependencies:
   bloc: ^6.0.0
   flutter_bloc: ^6.0.0
   form_bloc:
-    # git: git@github.com:dart-lang/widget.dart.git
     path: ../form_bloc
   # form_bloc:
   #   path: ../form_bloc
