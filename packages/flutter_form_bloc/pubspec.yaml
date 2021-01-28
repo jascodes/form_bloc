@@ -14,7 +14,9 @@ dependencies:
   bloc: ^6.0.0
   flutter_bloc: ^6.0.0
   form_bloc:
-    path: ../form_bloc
+    git:
+      url: git@github.com:jascodes/form_bloc.git
+      path: packages/form_bloc
   # form_bloc:
   #   path: ../form_bloc
   rxdart: ^0.25.0
