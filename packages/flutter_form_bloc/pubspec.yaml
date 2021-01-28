@@ -6,17 +6,19 @@ repository: https://github.com/GiancarloCode/form_bloc/tree/master/packages/flut
 issue_tracker: https://github.com/GiancarloCode/form_bloc/issues
 
 environment:
-  sdk: '>=2.6.0 <3.0.0'
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   bloc: ^6.0.0
   flutter_bloc: ^6.0.0
-  form_bloc: ^0.19.0
+  form_bloc:
+    # git: git@github.com:dart-lang/widget.dart.git
+    path: ../form_bloc
   # form_bloc:
   #   path: ../form_bloc
-  rxdart: ^0.24.0
+  rxdart: ^0.25.0
   flutter_keyboard_visibility: ^3.0.0
   collection: ^1.14.11
   intl: ">=0.15.1 <0.17.0"
